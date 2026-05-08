@@ -20,6 +20,7 @@ app.use(cookieParser());
 // CORS configuration
 const allowedOrigins = [
   process.env.FRONTEND_URL || 'http://localhost:5173',
+  'https://task-manager-chi-umber.vercel.app',
   'https://task-manager99.vercel.app',
   'http://localhost:5173',
   'http://localhost:3000'
