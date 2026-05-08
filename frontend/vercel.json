@@ -3,5 +3,11 @@
   "outputDirectory": "dist",
   "env": {
     "VITE_API_URL": "https://task-manager-c5e6.onrender.com/api"
-  }
+  },
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
 }
