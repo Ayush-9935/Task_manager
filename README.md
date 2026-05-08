@@ -36,7 +36,6 @@ A simple full-stack task management web application where users can create proje
 * Node.js
 * Express.js
 * MongoDB
-* Mongoose
 * JWT Authentication
 * bcryptjs
 
